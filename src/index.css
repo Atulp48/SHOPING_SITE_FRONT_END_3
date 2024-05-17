@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  margin: 0;
+  /* font-family: 'Playfair Display', serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, rgba(0, 209, 255, 1) 0%, rgba(0, 209, 255, 1) 50%, rgba(228, 248, 255, 1));
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1565c0;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1565c0;
+}
+
+code {
+  font-family: 'Playfair Display', serif;
+}
